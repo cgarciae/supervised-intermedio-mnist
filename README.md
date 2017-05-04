@@ -24,7 +24,7 @@ Cada sub conjunto de datos (training-set o test-set) tiene la siguiente estructu
 ```
 Donde
 * `subset`: es `training-set` o `test-set`
-* `class_id`: es el identificador de una clase, e.g. 0, 1, 2... 42
+* `class_id`: es el identificador de una clase, e.g. 0, 1, 2... 9
 * `image_id`: es el nombre de una imagen.
 
 
@@ -45,7 +45,7 @@ donde `n_aciertos` es el numero de imagenes clasificadas de forma correcta y `n_
 * Dado que las imagenes son conjuntos con dimensiones muy altas, usualmente la mejor manera de atacar el problema es utilizando [redes neuronales](https://en.wikipedia.org/wiki/Artificial_neural_network).
   * Para imagenes es recomendable utilizar redes [convolucionales](http://cs231n.github.io/convolutional-networks/).
 
-### Solucion
+### Solución
 Ver procedimiento de [solucion](https://github.com/colomb-ia/formato-retos#solucion).
 
 ##### Requerimientos
@@ -54,7 +54,7 @@ Ver procedimiento de [solucion](https://github.com/colomb-ia/formato-retos#soluc
 ##### Procedimiento
 *Indica el procedimiento que se debe seguir para reproducir tu solucion.*
 
-##### Metodo
+##### Método
 *Indica el metodo que utilizaste para solucionar el reto.*
 
 ##### Resultados
